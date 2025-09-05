@@ -1,0 +1,8 @@
+<library path="lib/librace_global_planner.so">
+<!-- name这个地方一般是namespace::classname type必须是具体的类 最后一个是继承的哪一个接口 -->
+    <class name="race_global_planner/RaceGlobalPlanner" type="race_global_planner::RaceGlobalPlanner" base_class_type="nav_core::BaseGlobalPlanner">
+        <description>
+            The race_global_planner package implements a plugin to the base_global_planner of the 2D navigation stack.
+        </description>
+    </class>
+</library>
